@@ -59,3 +59,9 @@
     color: white;
     border-radius: 50px;
 }
+
+.card-container .btn:hover {
+    background-color: white;
+    color: rgb(49, 49, 49);
+    border: 1px solid rgb(49, 49, 49);
+}
