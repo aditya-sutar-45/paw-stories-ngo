@@ -153,10 +153,10 @@ footer a{
     margin-bottom: 10px;
 }
 
-footer a:hover {
+/* footer a:hover {
     border: 1px solid white;
     border-radius: 50px;
-}
+} */
 
 
 .col-2 h3 {
@@ -190,4 +190,9 @@ footer a:hover {
 
 .col-3 {
     width: 20%;
+}
+
+footer svg {
+    height: 25px;
+    width: auto;
 }
