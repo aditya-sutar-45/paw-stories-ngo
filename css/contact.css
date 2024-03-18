@@ -67,4 +67,12 @@
     border: none;
     cursor: pointer;
     font-family: "Source Sans 3", sans-serif;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.left button:hover {
+    border: 2px solid rgb(49, 49, 49);
+    color: rgb(49, 49, 49);
+    background-color: white;
 }
