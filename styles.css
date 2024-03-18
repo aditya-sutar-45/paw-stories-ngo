@@ -79,17 +79,17 @@ h2 {
     margin-left: 20px;
 }
 
-.about-us {
+main p {
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.5rem;
     padding: 60px 20px;
     border-radius: 10px;
 }
 
-.about-us:hover {
+/* main p:hover {
     background-color: rgba(128, 0, 128, 0.267);
     margin-right: 20px;
-}
+} */
 
 .about {
     display: flex;
@@ -100,14 +100,23 @@ h2 {
 
 .about img {
     height: 450px;
-    width: auto;
+    width: 600px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
-.about img:hover {
-    border: 1px solid black;
+.diff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
+.diff img {
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+}
 footer {
     width: 100vw;
     height: 35vh;
